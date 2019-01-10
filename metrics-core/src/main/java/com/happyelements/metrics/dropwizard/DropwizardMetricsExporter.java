@@ -61,9 +61,6 @@ class DropwizardMetricsExporter {
      * Export a histogramUpdate snapshot as a prometheus SUMMARY.
      *
      * @param dropwizardName metric name.
-     * @param snapshot       the histogramUpdate snapshot.
-     * @param count          the total sample count for this snapshot.
-     * @param factor         a factor to apply to histogramUpdate values.
      * @throws IOException
      */
     public void writeHistogram(String dropwizardName, Histogram histogram) throws IOException {
