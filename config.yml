@@ -1,0 +1,9 @@
+server:
+  adminMinThreads: 1
+  adminMaxThreads: 16
+  applicationConnectors:
+  - type: http
+    port: 9264
+  adminConnectors:
+  - type: http
+    port: 9265
